@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{340c2bbc-ce74-4362-90b5-7c26312808ef}</em:id>
+    <em:version>1.7.delendam</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>7.0a1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:name>Firefox Sync</em:name>
+    <em:description>Synchronize your bookmarks, history, tabs and passwords wherever you go. Whether you use Firefox on your phone, laptop, or desktop, securely access all your data.</em:description>
+    <em:creator>Mozilla</em:creator>
+    <em:homepageURL>https://mozillalabs.com/weave/</em:homepageURL>
+<!--
+    <em:updateURL>https://services.mozilla.com/sync/update.rdf</em:updateURL>
+-->
+  </Description>
+</RDF>
