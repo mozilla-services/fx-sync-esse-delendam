@@ -4,7 +4,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{340c2bbc-ce74-4362-90b5-7c26312808ef}</em:id>
-    <em:version>1.8.delendam</em:version>
+    <em:version>1.8</em:version>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
 
