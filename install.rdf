@@ -4,7 +4,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{340c2bbc-ce74-4362-90b5-7c26312808ef}</em:id>
-    <em:version>1.7.delendam</em:version>
+    <em:version>1.8.delendam</em:version>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
 
@@ -13,7 +13,16 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>4.0</em:minVersion>
-        <em:maxVersion>7.0a1</em:maxVersion>
+        <em:maxVersion>8.0a1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Fennec -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>8.0a1</em:maxVersion>
       </Description>
     </em:targetApplication>
 
